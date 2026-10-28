@@ -1,0 +1,19 @@
+# Python virtual environments
+.venv/
+venv/
+
+# Secrets
+.env
+.env.*
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Test artifacts
+.pytest_cache/
+.coverage
+
+# Generated vector indexes
+qdrant_storage/
+chroma_db/
